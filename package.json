@@ -1,0 +1,27 @@
+{
+  "name": "phishyworker",
+  "version": "1.0.0",
+  "description": "phishy worker",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mesabuca/my-phishy-worker.git"
+  },
+  "keywords": [
+    "phishy",
+    "worker"
+  ],
+  "author": "mesabuca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mesabuca/my-phishy-worker/issues"
+  },
+  "homepage": "https://github.com/mesabuca/my-phishy-worker#readme",
+  "dependencies": {
+    "bull": "^4.12.2",
+    "express": "^4.18.2"
+  }
+}
